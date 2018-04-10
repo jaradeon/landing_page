@@ -1,0 +1,94 @@
+* {
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.background-image {
+    background-image: url("img/arsenal_banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation-bar{
+    background-color: rgba(0,0,0, 0.01);
+    display:flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navigation-items {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+
+#about-list-item, #contact-list-item, #blog-list-item {
+  margin:10px;
+}
+
+.first-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: bottom;
+    height:80vh;
+}
+
+.title-1 {
+    margin: 10px;
+    color: white;
+    font-size: 60px;
+}
+
+.title-2 {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.about-title, li, h3 {
+  color:black;
+}
+
+.second-section {
+    height:60vh;
+}
+
+#about {
+  display:flex;
+  justify-content: center;
+  margin:20px;
+  padding-bottom: 40px;
+  font-size:25px;
+}
+
+h3 {
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+
+.skills-interests-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills {
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size:20px;
+}
+
+.interests {
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size:20px;
+}
+}
